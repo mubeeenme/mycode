@@ -1,0 +1,31 @@
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { Inter } from 'next/font/google';
+import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata = {
+  title: 'Mobile Store',
+  description: 'Modern mobile store with international payments',
+};
+
+export default async function RootLayout({
+  children,
+  params: { locale },
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) {
+  const messages = await getMessages();
+
+  return (
+    <html lang={locale}>
+      <body className={inter.className}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}

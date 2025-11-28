@@ -1,0 +1,49 @@
+{
+  "HomePage": {
+    "title": "优质移动体验",
+    "subtitle": "探索最新的移动技术，享受无缝的国际购物体验和安全支付。",
+    "cta": {
+      "shop": "立即购买",
+      "learn": "了解更多"
+    },
+    "features": {
+      "title": "为什么选择我们",
+      "international": {
+        "title": "全球购物",
+        "description": "从世界任何地方购物，享受本地化体验和国际支付方式。"
+      },
+      "mobile": {
+        "title": "移动优先",
+        "description": "为移动设备优化，响应式设计和流畅的交互体验。"
+      },
+      "payments": {
+        "title": "安全支付",
+        "description": "多种支付方式，包括Stripe、PayPal、支付宝和微信支付。"
+      }
+    }
+  },
+  "Products": {
+    "title": "我们的产品",
+    "description": "浏览我们精选的优质移动设备和配件。",
+    "addToCart": "加入购物车"
+  },
+  "Navigation": {
+    "home": "首页",
+    "products": "产品",
+    "about": "关于",
+    "contact": "联系",
+    "cart": "购物车"
+  },
+  "LanguageSwitcher": {
+    "english": "English",
+    "chinese": "中文"
+  },
+  "Header": {
+    "tagline": "优质移动商店"
+  },
+  "Footer": {
+    "copyright": "© 2024 移动商店。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  }
+}

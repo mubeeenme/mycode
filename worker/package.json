@@ -1,0 +1,19 @@
+{
+  "name": "mobile-store-worker",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^3.11.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "typescript": "^5.2.2",
+    "wrangler": "^3.22.1"
+  }
+}
