@@ -1,0 +1,49 @@
+{
+  "HomePage": {
+    "title": "Premium Mobile Experience",
+    "subtitle": "Discover the latest in mobile technology with seamless international shopping and secure payments.",
+    "cta": {
+      "shop": "Shop Now",
+      "learn": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "international": {
+        "title": "Global Shopping",
+        "description": "Shop from anywhere in the world with localized experience and international payment methods."
+      },
+      "mobile": {
+        "title": "Mobile First",
+        "description": "Optimized for mobile devices with responsive design and smooth interactions."
+      },
+      "payments": {
+        "title": "Secure Payments",
+        "description": "Multiple payment options including Stripe, PayPal, Alipay, and WeChat Pay."
+      }
+    }
+  },
+  "Products": {
+    "title": "Our Products",
+    "description": "Browse our selection of premium mobile devices and accessories.",
+    "addToCart": "Add to Cart"
+  },
+  "Navigation": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "LanguageSwitcher": {
+    "english": "English",
+    "chinese": "中文"
+  },
+  "Header": {
+    "tagline": "Premium Mobile Store"
+  },
+  "Footer": {
+    "copyright": "© 2024 Mobile Store. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
