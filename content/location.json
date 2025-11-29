@@ -1,0 +1,36 @@
+{
+  "en": {
+    "title": "Our Locations",
+    "locations": [
+      {
+        "name": "San Francisco Flagship Store",
+        "address": "123 Commerce Street, Suite 100, San Francisco, CA 94105",
+        "phone": "+1 (555) 123-4567",
+        "hours": "Mon-Fri: 9AM-6PM, Sat-Sun: 10AM-4PM"
+      },
+      {
+        "name": "New York Store",
+        "address": "456 Madison Avenue, New York, NY 10022",
+        "phone": "+1 (555) 987-6543",
+        "hours": "Mon-Fri: 9AM-7PM, Sat-Sun: 10AM-5PM"
+      }
+    ]
+  },
+  "zh": {
+    "title": "门店位置",
+    "locations": [
+      {
+        "name": "旧金山旗舰店",
+        "address": "美国加利福尼亚州旧金山市商业街123号100室，邮编94105",
+        "phone": "+1 (555) 123-4567",
+        "hours": "周一至周五：9AM-6PM，周六至周日：10AM-4PM"
+      },
+      {
+        "name": "纽约店",
+        "address": "美国纽约州纽约市麦迪逊大道456号，邮编10022",
+        "phone": "+1 (555) 987-6543",
+        "hours": "周一至周五：9AM-7PM，周六至周日：10AM-5PM"
+      }
+    ]
+  }
+}

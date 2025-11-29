@@ -1,0 +1,120 @@
+{
+  "common": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "location": "Location",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "returns": "Returns Policy",
+    "search": "Search",
+    "searchPlaceholder": "Search products...",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "noResults": "No products found",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back"
+  },
+  "home": {
+    "heroTitle": "Welcome to Our Store",
+    "heroSubtitle": "Discover amazing products at great prices",
+    "featuredProducts": "Featured Products",
+    "shopNow": "Shop Now"
+  },
+  "products": {
+    "title": "Products",
+    "filters": "Filters",
+    "sortBy": "Sort by",
+    "priceRange": "Price Range",
+    "brand": "Brand",
+    "category": "Category",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "applyFilters": "Apply Filters",
+    "clearFilters": "Clear Filters",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "sortNewest": "Newest First",
+    "sortPriceLow": "Price: Low to High",
+    "sortPriceHigh": "Price: High to Low",
+    "sortRating": "Highest Rated"
+  },
+  "productDetail": {
+    "specifications": "Specifications",
+    "reviews": "Reviews",
+    "writeReview": "Write a Review",
+    "description": "Description",
+    "price": "Price",
+    "availability": "Availability",
+    "brand": "Brand",
+    "category": "Category",
+    "rating": "Rating",
+    "share": "Share",
+    "addToWishlist": "Add to Wishlist"
+  },
+  "reviews": {
+    "title": "Customer Reviews",
+    "noReviews": "No reviews yet",
+    "beFirst": "Be the first to write a review!",
+    "verified": "Verified Purchase",
+    "rating": "Rating",
+    "yourName": "Your Name",
+    "reviewTitle": "Review Title",
+    "yourReview": "Your Review",
+    "submitReview": "Submit Review",
+    "reviewsCount": "{count} Reviews",
+    "averageRating": "Average Rating",
+    "stars": "stars",
+    "helpful": "Helpful",
+    "loadMore": "Load More Reviews"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our company and mission"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with our team",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "location": {
+    "title": "Our Locations",
+    "description": "Visit us at one of our store locations"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "description": "Please read our terms and conditions"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Your privacy is important to us"
+  },
+  "returns": {
+    "title": "Returns Policy",
+    "description": "Learn about our return and refund policy"
+  },
+  "seo": {
+    "homeTitle": "Home | Quality Products Store",
+    "homeDescription": "Discover amazing products at great prices. Shop electronics, accessories, and more.",
+    "productsTitle": "Products | Quality Products Store",
+    "productsDescription": "Browse our wide selection of quality products with great prices and fast shipping.",
+    "aboutTitle": "About Us | Quality Products Store",
+    "contactTitle": "Contact Us | Quality Products Store",
+    "locationTitle": "Store Locations | Quality Products Store",
+    "termsTitle": "Terms & Conditions | Quality Products Store",
+    "privacyTitle": "Privacy Policy | Quality Products Store",
+    "returnsTitle": "Returns Policy | Quality Products Store"
+  }
+}

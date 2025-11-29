@@ -1,0 +1,120 @@
+{
+  "common": {
+    "home": "首页",
+    "products": "产品",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "location": "门店位置",
+    "terms": "条款和条件",
+    "privacy": "隐私政策",
+    "returns": "退货政策",
+    "search": "搜索",
+    "searchPlaceholder": "搜索产品...",
+    "addToCart": "加入购物车",
+    "buyNow": "立即购买",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "showing": "显示",
+    "of": "共",
+    "results": "个结果",
+    "noResults": "未找到产品",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "back": "返回"
+  },
+  "home": {
+    "heroTitle": "欢迎来到我们的商店",
+    "heroSubtitle": "发现优质产品，享受超值价格",
+    "featuredProducts": "精选产品",
+    "shopNow": "立即购物"
+  },
+  "products": {
+    "title": "产品",
+    "filters": "筛选",
+    "sortBy": "排序",
+    "priceRange": "价格范围",
+    "brand": "品牌",
+    "category": "分类",
+    "minPrice": "最低价格",
+    "maxPrice": "最高价格",
+    "applyFilters": "应用筛选",
+    "clearFilters": "清除筛选",
+    "inStock": "有货",
+    "outOfStock": "缺货",
+    "sortNewest": "最新",
+    "sortPriceLow": "价格：低到高",
+    "sortPriceHigh": "价格：高到低",
+    "sortRating": "评分最高"
+  },
+  "productDetail": {
+    "specifications": "规格参数",
+    "reviews": "用户评价",
+    "writeReview": "写评价",
+    "description": "产品描述",
+    "price": "价格",
+    "availability": "库存状态",
+    "brand": "品牌",
+    "category": "分类",
+    "rating": "评分",
+    "share": "分享",
+    "addToWishlist": "加入心愿单"
+  },
+  "reviews": {
+    "title": "用户评价",
+    "noReviews": "暂无评价",
+    "beFirst": "成为第一个评价的人！",
+    "verified": "已验证购买",
+    "rating": "评分",
+    "yourName": "您的姓名",
+    "reviewTitle": "评价标题",
+    "yourReview": "您的评价",
+    "submitReview": "提交评价",
+    "reviewsCount": "{count} 条评价",
+    "averageRating": "平均评分",
+    "stars": "星",
+    "helpful": "有帮助",
+    "loadMore": "加载更多评价"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "了解我们的公司和使命"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "与我们的团队取得联系",
+    "name": "姓名",
+    "email": "电子邮件",
+    "message": "留言",
+    "send": "发送消息",
+    "phone": "电话",
+    "address": "地址"
+  },
+  "location": {
+    "title": "门店位置",
+    "description": "欢迎到我们的门店参观"
+  },
+  "terms": {
+    "title": "条款和条件",
+    "description": "请阅读我们的条款和条件"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "description": "您的隐私对我们很重要"
+  },
+  "returns": {
+    "title": "退货政策",
+    "description": "了解我们的退货和退款政策"
+  },
+  "seo": {
+    "homeTitle": "首页 | 优质产品商店",
+    "homeDescription": "发现优质产品，享受超值价格。购买电子产品、配件等。",
+    "productsTitle": "产品 | 优质产品商店",
+    "productsDescription": "浏览我们丰富的优质产品，享受优惠价格和快速配送。",
+    "aboutTitle": "关于我们 | 优质产品商店",
+    "contactTitle": "联系我们 | 优质产品商店",
+    "locationTitle": "门店位置 | 优质产品商店",
+    "termsTitle": "条款和条件 | 优质产品商店",
+    "privacyTitle": "隐私政策 | 优质产品商店",
+    "returnsTitle": "退货政策 | 优质产品商店"
+  }
+}

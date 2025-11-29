@@ -1,0 +1,72 @@
+{
+  "en": {
+    "title": "About Us",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Our Story"
+      },
+      {
+        "type": "paragraph",
+        "text": "Founded in 2024, our company has been dedicated to bringing quality products to customers worldwide. We believe in excellence, innovation, and customer satisfaction."
+      },
+      {
+        "type": "heading",
+        "text": "Our Mission"
+      },
+      {
+        "type": "paragraph",
+        "text": "Our mission is to provide high-quality products at competitive prices while maintaining exceptional customer service. We carefully curate our product selection to ensure that every item meets our high standards."
+      },
+      {
+        "type": "heading",
+        "text": "Why Choose Us"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Premium quality products",
+          "Competitive pricing",
+          "Fast and reliable shipping",
+          "Outstanding customer support",
+          "Secure payment processing"
+        ]
+      }
+    ]
+  },
+  "zh": {
+    "title": "关于我们",
+    "content": [
+      {
+        "type": "heading",
+        "text": "我们的故事"
+      },
+      {
+        "type": "paragraph",
+        "text": "成立于2024年，我们公司一直致力于为全球客户提供优质产品。我们相信卓越、创新和客户满意度。"
+      },
+      {
+        "type": "heading",
+        "text": "我们的使命"
+      },
+      {
+        "type": "paragraph",
+        "text": "我们的使命是以有竞争力的价格提供高质量的产品，同时保持卓越的客户服务。我们精心挑选产品，确保每件商品都符合我们的高标准。"
+      },
+      {
+        "type": "heading",
+        "text": "为什么选择我们"
+      },
+      {
+        "type": "list",
+        "items": [
+          "优质产品",
+          "竞争力价格",
+          "快速可靠的配送",
+          "卓越的客户支持",
+          "安全的支付处理"
+        ]
+      }
+    ]
+  }
+}
