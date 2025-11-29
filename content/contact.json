@@ -1,0 +1,18 @@
+{
+  "en": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "email": "support@example.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Commerce Street, Suite 100, San Francisco, CA 94105, USA",
+    "hours": "Monday - Friday: 9:00 AM - 6:00 PM PST"
+  },
+  "zh": {
+    "title": "联系我们",
+    "subtitle": "与我们的团队取得联系",
+    "email": "support@example.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "美国加利福尼亚州旧金山市商业街123号100室，邮编94105",
+    "hours": "周一至周五：上午9:00 - 下午6:00（太平洋时间）"
+  }
+}

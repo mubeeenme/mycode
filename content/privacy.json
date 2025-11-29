@@ -1,0 +1,62 @@
+{
+  "en": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 20, 2024",
+    "sections": [
+      {
+        "heading": "Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account, make a purchase, or contact us for support. This may include your name, email address, shipping address, and payment information."
+      },
+      {
+        "heading": "How We Use Your Information",
+        "content": "We use the information we collect to process your orders, communicate with you, improve our services, and comply with legal obligations."
+      },
+      {
+        "heading": "Information Sharing",
+        "content": "We do not sell or rent your personal information to third parties. We may share your information with service providers who assist us in operating our business, subject to confidentiality agreements."
+      },
+      {
+        "heading": "Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction."
+      },
+      {
+        "heading": "Your Rights",
+        "content": "You have the right to access, correct, or delete your personal information. You may also object to or restrict certain processing of your data. Contact us to exercise these rights."
+      },
+      {
+        "heading": "Cookies",
+        "content": "We use cookies and similar technologies to enhance your experience, analyze usage, and assist in our marketing efforts. You can control cookies through your browser settings."
+      }
+    ]
+  },
+  "zh": {
+    "title": "隐私政策",
+    "lastUpdated": "2024年2月20日",
+    "sections": [
+      {
+        "heading": "我们收集的信息",
+        "content": "我们收集您直接向我们提供的信息，例如当您创建账户、进行购买或联系我们寻求支持时。这可能包括您的姓名、电子邮件地址、送货地址和付款信息。"
+      },
+      {
+        "heading": "我们如何使用您的信息",
+        "content": "我们使用收集的信息来处理您的订单、与您沟通、改进我们的服务并遵守法律义务。"
+      },
+      {
+        "heading": "信息共享",
+        "content": "我们不会向第三方出售或出租您的个人信息。我们可能会与协助我们运营业务的服务提供商共享您的信息，但须遵守保密协议。"
+      },
+      {
+        "heading": "数据安全",
+        "content": "我们实施适当的技术和组织措施，以保护您的个人信息免遭未经授权的访问、更改、披露或破坏。"
+      },
+      {
+        "heading": "您的权利",
+        "content": "您有权访问、更正或删除您的个人信息。您还可以反对或限制对您数据的某些处理。请联系我们以行使这些权利。"
+      },
+      {
+        "heading": "Cookie",
+        "content": "我们使用Cookie和类似技术来增强您的体验、分析使用情况并协助我们的营销工作。您可以通过浏览器设置控制Cookie。"
+      }
+    ]
+  }
+}

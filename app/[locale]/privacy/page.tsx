@@ -1,0 +1,42 @@
+import { getTranslations } from 'next-intl/server';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import privacyContent from '@/content/privacy.json';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: 'seo' });
+  
+  return {
+    title: t('privacyTitle'),
+    description: await getTranslations({ locale, namespace: 'privacy' }).then(t => t('description')),
+    openGraph: {
+      title: t('privacyTitle'),
+      type: 'website',
+    },
+  };
+}
+
+export default async function PrivacyPage({ params: { locale } }: { params: { locale: string } }) {
+  const content = privacyContent[locale as keyof typeof privacyContent] || privacyContent.en;
+  const t = await getTranslations({ locale, namespace: 'privacy' });
+
+  return (
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <Breadcrumbs items={[{ name: t('title') }]} />
+
+      <article className="bg-white rounded-lg shadow-md p-8">
+        <h1 className="text-4xl font-bold mb-4">{content.title}</h1>
+        <p className="text-gray-600 mb-8">Last Updated: {content.lastUpdated}</p>
+
+        <div className="space-y-6">
+          {content.sections.map((section, index) => (
+            <div key={index}>
+              <h2 className="text-xl font-bold mb-3">{section.heading}</h2>
+              <p className="text-gray-700 leading-relaxed">{section.content}</p>
+            </div>
+          ))}
+        </div>
+      </article>
+    </div>
+  );
+}

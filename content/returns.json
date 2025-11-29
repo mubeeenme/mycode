@@ -1,0 +1,62 @@
+{
+  "en": {
+    "title": "Returns Policy",
+    "lastUpdated": "February 20, 2024",
+    "sections": [
+      {
+        "heading": "30-Day Return Policy",
+        "content": "We offer a 30-day return policy for most items. Products must be returned in their original condition with all packaging and accessories included."
+      },
+      {
+        "heading": "How to Return",
+        "content": "To initiate a return, please contact our customer service team with your order number. We will provide you with a return authorization and shipping instructions."
+      },
+      {
+        "heading": "Refund Process",
+        "content": "Once we receive and inspect your returned item, we will process your refund within 5-7 business days. Refunds will be issued to your original payment method."
+      },
+      {
+        "heading": "Exceptions",
+        "content": "Some items cannot be returned, including personalized products, downloadable software, and items marked as final sale. Please check the product description for details."
+      },
+      {
+        "heading": "Damaged or Defective Items",
+        "content": "If you receive a damaged or defective item, please contact us immediately. We will arrange for a replacement or full refund, including return shipping costs."
+      },
+      {
+        "heading": "Return Shipping",
+        "content": "Customers are responsible for return shipping costs unless the item is damaged, defective, or we made an error in your order."
+      }
+    ]
+  },
+  "zh": {
+    "title": "退货政策",
+    "lastUpdated": "2024年2月20日",
+    "sections": [
+      {
+        "heading": "30天退货政策",
+        "content": "我们为大多数商品提供30天退货政策。产品必须保持原始状态，包括所有包装和配件。"
+      },
+      {
+        "heading": "如何退货",
+        "content": "要启动退货，请联系我们的客户服务团队并提供您的订单号。我们将为您提供退货授权和运输说明。"
+      },
+      {
+        "heading": "退款流程",
+        "content": "一旦我们收到并检查您退回的商品，我们将在5-7个工作日内处理您的退款。退款将退还到您的原始付款方式。"
+      },
+      {
+        "heading": "例外情况",
+        "content": "某些商品不能退货，包括个性化产品、可下载软件和标记为最终销售的商品。请查看产品说明以获取详细信息。"
+      },
+      {
+        "heading": "损坏或有缺陷的商品",
+        "content": "如果您收到损坏或有缺陷的商品，请立即联系我们。我们将安排更换或全额退款，包括退货运费。"
+      },
+      {
+        "heading": "退货运费",
+        "content": "除非商品损坏、有缺陷或我们在您的订单中出错，否则客户需要承担退货运费。"
+      }
+    ]
+  }
+}
