@@ -1,38 +1,14 @@
 import type { AppProps } from 'next/app';
 import { appWithTranslation } from 'next-i18next';
-import { Toaster } from 'react-hot-toast';
+import { NotificationProvider } from '@/components/admin/NotificationProvider';
 import '@/styles/globals.css';
 import '@/lib/i18n';
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <NotificationProvider>
       <Component {...pageProps} />
-      <Toaster
-        position="top-right"
-        toastOptions={{
-          duration: 4000,
-          style: {
-            background: '#363636',
-            color: '#fff',
-          },
-          success: {
-            duration: 3000,
-            iconTheme: {
-              primary: '#4ade80',
-              secondary: '#fff',
-            },
-          },
-          error: {
-            duration: 5000,
-            iconTheme: {
-              primary: '#ef4444',
-              secondary: '#fff',
-            },
-          },
-        }}
-      />
-    </>
+    </NotificationProvider>
   );
 }
 

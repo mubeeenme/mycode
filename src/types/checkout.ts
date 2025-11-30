@@ -32,6 +32,7 @@ export interface PaymentMethod {
   alias?: string;
   isDefault?: boolean;
   last4?: string;
+  providerId?: string;
 }
 
 export interface Order {

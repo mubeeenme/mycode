@@ -21,13 +21,13 @@ export const CartItem: React.FC<CartItemProps> = ({
   const { t } = useTranslation('common');
 
   const handleQuantityChange = async (newQuantity: number) => {
-    if (newQuantity >= 0 && newQuantity <= item.inventory) {
+    if (newQuantity >= 0 && (!item.inventory || newQuantity <= item.inventory)) {
       await onUpdateQuantity(item.id, newQuantity);
     }
   };
 
   const getInventoryStatus = () => {
-    if (item.inventory === 0) {
+    if (!item.inventory || item.inventory === 0) {
       return { status: 'outOfStock', color: 'text-red-600' };
     } else if (item.inventory <= 5) {
       return { status: 'lowStock', color: 'text-yellow-600' };
@@ -84,7 +84,7 @@ export const CartItem: React.FC<CartItemProps> = ({
             variant="outline"
             size="sm"
             onClick={() => handleQuantityChange(item.quantity + 1)}
-            disabled={loading || item.quantity >= item.inventory}
+            disabled={loading || (item.inventory && item.quantity >= item.inventory)}
           >
             <Plus className="h-3 w-3" />
           </Button>

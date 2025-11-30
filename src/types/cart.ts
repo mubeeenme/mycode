@@ -7,7 +7,7 @@ export interface CartItem {
   quantity: number;
   image?: string;
   sku?: string;
-  inventory: number;
+  inventory?: number;
   weight?: number;
   dimensions?: {
     length: number;
