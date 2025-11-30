@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { Minus, Plus, Trash2 } from 'lucide-react';
 import { CartItem as CartItemType } from '@/types/cart';
 import { Button } from '@/components/ui/Button';
@@ -41,10 +40,9 @@ export const CartItem: React.FC<CartItemProps> = ({
     <div className="flex items-center space-x-4 py-4 border-b">
       <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
         {item.image ? (
-          <Image
+          <img
             src={item.image}
             alt={item.name}
-            fill
             className="h-full w-full object-cover object-center"
           />
         ) : (

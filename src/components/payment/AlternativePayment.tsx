@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { PaymentMethod } from '@/types/checkout';
 import { Button } from '@/components/ui/Button';
 import { useTranslation } from 'next-i18next';
@@ -80,11 +79,9 @@ export const AlternativePayment: React.FC<AlternativePaymentProps> = ({
       {qrCode && (
         <div className="text-center">
           <div className="inline-block p-4 bg-white border-2 border-gray-200 rounded-lg">
-            <Image
+            <img
               src={qrCode}
               alt={`${type} QR Code`}
-              width={192}
-              height={192}
               className="w-48 h-48 mx-auto"
             />
           </div>
