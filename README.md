@@ -287,6 +287,19 @@ Run the database migrations and set up RLS policies in your production Supabase 
 - Configure PayPal for production environment
 - Set up proper webhook endpoints for payment confirmations
 
+### Cloudflare Pages
+The project is configured for static export using Next.js 14, so
+you can deploy it to Cloudflare Pages using the following settings:
+
+- **Build command**: `npm run build`
+- **Build output directory**: `out`
+- **Root directory**: `/`
+- **Production branch**: `main`
+
+Build locally with `npm run build` to confirm that the `out/` directory
+contains `index.html` and `_next/`. For detailed deployment steps, see
+`CLOUDFLARE_DEPLOYMENT.md`.
+
 ## Contributing
 
 1. Follow the existing code style and patterns

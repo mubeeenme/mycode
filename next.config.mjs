@@ -1,10 +1,11 @@
-const { i18n } = require('./next-i18next.config');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
   swcMinify: true,
-  i18n,
+  images: {
+    unoptimized: true,
+  },
   env: {
     NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL || '',
     NEXT_PUBLIC_SUPABASE_ANON_KEY: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '',
@@ -12,4 +13,8 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export const config = {
+  staticPageGeneration: true,
+};
+
+export default nextConfig;
