@@ -6,7 +6,7 @@ import { Address } from '@/types/checkout';
 import { Input } from '@/components/ui/Input';
 import { Select } from '@/components/ui/Select';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 const addressSchema = z.object({
   street: z.string().min(5, 'validation.minLength'),

@@ -3,7 +3,7 @@ import { ShippingOption } from '@/types/cart';
 import { mockWorkerApi } from '@/lib/worker-api';
 import { useCartStore } from '@/store/cart';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 interface ShippingOptionsProps {
   address: import('@/types/checkout').Address;

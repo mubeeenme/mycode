@@ -3,7 +3,7 @@ import { ArrowLeft, ShoppingCart } from 'lucide-react';
 import { useCartStore } from '@/store/cart';
 import { CartItem } from './CartItem';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 interface CartPageProps {
   onCheckout: () => void;

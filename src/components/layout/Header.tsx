@@ -4,7 +4,7 @@ import { useCartStore } from '@/store/cart';
 import { Button } from '@/components/ui/Button';
 import { CartDrawer } from '@/components/cart/CartDrawer';
 import { Input } from '@/components/ui/Input';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 interface HeaderProps {
   onCartClick: () => void;

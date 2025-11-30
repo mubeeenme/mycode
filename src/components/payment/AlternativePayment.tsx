@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { PaymentMethod } from '@/types/checkout';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 interface AlternativePaymentProps {
   type: 'alipay' | 'wechat';

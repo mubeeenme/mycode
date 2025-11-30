@@ -1,0 +1,19 @@
+name = "cart-checkout-worker"
+main = "src/worker/index.js"
+compatibility_date = "2023-12-01"
+
+[env.production]
+name = "cart-checkout-worker-prod"
+
+[env.staging]
+name = "cart-checkout-worker-staging"
+
+# Environment variables for the Worker
+[vars]
+ENVIRONMENT = "development"
+
+# KV namespace for caching (optional)
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
+# preview_id = "your-preview-kv-namespace-id"
