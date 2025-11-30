@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { CartPage } from '@/components/cart/CartPage';
@@ -195,11 +194,9 @@ const HomePage: React.FC = () => {
             {mockProducts.map((product) => (
               <div key={product.id} className="bg-white rounded-lg shadow-sm border overflow-hidden hover:shadow-md transition-shadow">
                 <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden bg-gray-200">
-                  <Image
+                  <img
                     src={product.image}
                     alt={product.name}
-                    width={300}
-                    height={300}
                     className="w-full h-64 object-cover"
                   />
                 </div>
