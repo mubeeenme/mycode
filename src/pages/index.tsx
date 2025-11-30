@@ -7,7 +7,7 @@ import { CheckoutFlow } from '@/components/checkout/CheckoutFlow';
 import { Button } from '@/components/ui/Button';
 import { useCartStore } from '@/store/cart';
 import { ShoppingCart, Package, Truck, Shield } from 'lucide-react';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation('common');

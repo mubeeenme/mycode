@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { PaymentMethod } from '@/types/checkout';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 interface PayPalPaymentProps {
   amount: number;

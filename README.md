@@ -276,16 +276,79 @@ The application includes mock data and services for testing without external dep
 
 ## Deployment
 
-### Environment Variables
-Ensure all environment variables are properly set in your production environment.
+### Cloudflare Pages (Static Export)
 
-### Database
+This project is configured for static export and deployment to Cloudflare Pages:
+
+1. **Build the application**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy to Cloudflare Pages**
+   - Connect your repository to Cloudflare Pages
+   - Set build command: `npm run build`
+   - Set output directory: `out`
+   - Configure environment variables in Cloudflare dashboard
+
+### Environment Variables
+
+Required environment variables for production:
+
+```env
+# Supabase Configuration
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Stripe Configuration
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_live_your_stripe_publishable_key
+
+# PayPal Configuration
+NEXT_PUBLIC_PAYPAL_CLIENT_ID=your_paypal_client_id
+
+# Worker API Configuration
+NEXT_PUBLIC_WORKER_API_URL=https://your-worker-api.workers.dev
+
+# Application Environment
+NODE_ENV=production
+```
+
+### Worker API Deployment
+
+Deploy the Worker API separately using Wrangler:
+
+1. **Install Wrangler CLI**
+   ```bash
+   npm install -g wrangler
+   ```
+
+2. **Authenticate with Cloudflare**
+   ```bash
+   wrangler login
+   ```
+
+3. **Deploy the Worker**
+   ```bash
+   wrangler deploy
+   ```
+
+### Database Setup
+
 Run the database migrations and set up RLS policies in your production Supabase instance.
 
 ### Payment Providers
+
 - Use production Stripe keys for live payments
 - Configure PayPal for production environment
 - Set up proper webhook endpoints for payment confirmations
+
+### Build Configuration
+
+The project uses static export configuration:
+- `output: 'export'` in next.config.js
+- `trailingSlash: true` for proper routing
+- `images.unoptimized: true` for static compatibility
+- Build command: `npm run build` (automatically generates static export)
 
 ## Contributing
 

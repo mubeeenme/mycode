@@ -13,7 +13,7 @@ import { AddressForm } from './AddressForm';
 import { ShippingOptions } from './ShippingOptions';
 import { PaymentMethodSelector } from '../payment/PaymentMethodSelector';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 interface CheckoutFlowProps {
   onComplete: (order: Order) => void;

@@ -5,7 +5,7 @@ import { z } from 'zod';
 import { CustomerInfo } from '@/types/checkout';
 import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 const customerInfoSchema = z.object({
   firstName: z.string().min(2, 'validation.minLength'),
