@@ -1,0 +1,302 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "orders": "Orders",
+    "reviews": "Reviews",
+    "customers": "Customers",
+    "settings": "Settings",
+    "signOut": "Sign Out"
+  },
+  "dashboard": {
+    "title": "Admin Dashboard",
+    "subtitle": "Welcome back, {{name}}",
+    "stats": {
+      "totalProducts": "Total Products",
+      "lowStockProducts": "Low Stock Products",
+      "pendingOrders": "Pending Orders",
+      "pendingReviews": "Pending Reviews"
+    },
+    "viewDetails": "View Details",
+    "recentActivity": "Recent Activity",
+    "view": "View",
+    "quickActions": "Quick Actions",
+    "addProduct": "Add New Product",
+    "processOrders": "Process Orders",
+    "moderateReviews": "Moderate Reviews",
+    "updateInventory": "Update Inventory"
+  },
+  "products": {
+    "title": "Products",
+    "addProduct": "Add Product",
+    "editProduct": "Edit Product",
+    "deleteProduct": "Delete Product",
+    "search": "Search products...",
+    "filter": {
+      "all": "All Products",
+      "active": "Active",
+      "draft": "Draft",
+      "archived": "Archived",
+      "inStock": "In Stock",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "sortBy": {
+      "name": "Name",
+      "price": "Price",
+      "created": "Created",
+      "updated": "Updated",
+      "stock": "Stock"
+    },
+    "form": {
+      "name": "Product Name",
+      "description": "Description",
+      "price": "Price",
+      "comparePrice": "Compare at Price",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "trackInventory": "Track Inventory",
+      "inventoryQuantity": "Inventory Quantity",
+      "lowStockThreshold": "Low Stock Threshold",
+      "categories": "Categories",
+      "tags": "Tags",
+      "status": "Status",
+      "weight": "Weight (kg)",
+      "dimensions": "Dimensions (cm)",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "images": "Images",
+      "addImage": "Add Image",
+      "removeImage": "Remove Image",
+      "save": "Save Product",
+      "cancel": "Cancel",
+      "delete": "Delete Product",
+      "deleteConfirm": "Are you sure you want to delete this product? This action cannot be undone."
+    },
+    "inventory": {
+      "bulkUpdate": "Bulk Update Inventory",
+      "update": "Update",
+      "lowStockAlert": "Low Stock Alert",
+      "outOfStock": "Out of Stock"
+    },
+    "status": {
+      "active": "Active",
+      "draft": "Draft",
+      "archived": "Archived"
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "viewOrder": "View Order",
+    "search": "Search orders...",
+    "filter": {
+      "all": "All Orders",
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "paymentStatus": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed",
+      "refunded": "Refunded"
+    },
+    "actions": {
+      "markProcessing": "Mark as Processing",
+      "markShipped": "Mark as Shipped",
+      "markDelivered": "Mark as Delivered",
+      "cancel": "Cancel Order",
+      "capturePayment": "Capture Payment",
+      "refundPayment": "Refund Payment",
+      "addTracking": "Add Tracking",
+      "sendNotification": "Send Notification"
+    },
+    "details": {
+      "orderNumber": "Order #{{number}}",
+      "customer": "Customer",
+      "date": "Date",
+      "status": "Status",
+      "paymentStatus": "Payment Status",
+      "paymentMethod": "Payment Method",
+      "items": "Items",
+      "subtotal": "Subtotal",
+      "tax": "Tax",
+      "shipping": "Shipping",
+      "total": "Total",
+      "shippingAddress": "Shipping Address",
+      "billingAddress": "Billing Address",
+      "notes": "Notes",
+      "tracking": "Tracking Information"
+    },
+    "fulfillment": {
+      "title": "Order Fulfillment",
+      "trackingNumber": "Tracking Number",
+      "carrier": "Carrier",
+      "notifyCustomer": "Notify Customer",
+      "markComplete": "Mark as Complete"
+    }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "moderate": "Moderate Reviews",
+    "respond": "Respond to Review",
+    "search": "Search reviews...",
+    "filter": {
+      "all": "All Reviews",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "hidden": "Hidden"
+    },
+    "rating": "Rating",
+    "verified": "Verified Purchase",
+    "actions": {
+      "approve": "Approve",
+      "reject": "Reject",
+      "hide": "Hide",
+      "show": "Show",
+      "respond": "Respond",
+      "delete": "Delete"
+    },
+    "response": {
+      "title": "Admin Response",
+      "placeholder": "Write a response to this review...",
+      "save": "Save Response",
+      "cancel": "Cancel"
+    },
+    "details": {
+      "product": "Product",
+      "customer": "Customer",
+      "rating": "Rating",
+      "date": "Date",
+      "verified": "Verified Purchase",
+      "helpful": "Helpful ({{count}})",
+      "title": "Review Title",
+      "content": "Review Content"
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "viewCustomer": "View Customer",
+    "search": "Search customers...",
+    "details": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "joined": "Joined",
+      "totalOrders": "Total Orders",
+      "totalSpent": "Total Spent",
+      "lastOrder": "Last Order",
+      "addresses": "Addresses",
+      "paymentMethods": "Payment Methods"
+    },
+    "actions": {
+      "viewOrders": "View Orders",
+      "sendEmail": "Send Email",
+      "addNote": "Add Note"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": {
+      "title": "General Settings",
+      "storeName": "Store Name",
+      "storeEmail": "Store Email",
+      "storePhone": "Store Phone",
+      "currency": "Currency",
+      "timezone": "Timezone"
+    },
+    "shipping": {
+      "title": "Shipping Settings",
+      "freeShippingThreshold": "Free Shipping Threshold",
+      "defaultShippingRate": "Default Shipping Rate"
+    },
+    "tax": {
+      "title": "Tax Settings",
+      "taxRate": "Tax Rate",
+      "taxIncluded": "Tax Included in Prices"
+    },
+    "users": {
+      "title": "User Management",
+      "addUser": "Add User",
+      "editUser": "Edit User",
+      "removeUser": "Remove User",
+      "role": "Role",
+      "roles": {
+        "owner": "Owner",
+        "manager": "Manager",
+        "customer": "Customer"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "name": "Name",
+    "email": "Email",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "page": "Page",
+    "of": "of",
+    "results": "results",
+    "noResults": "No results found",
+    "select": "Select",
+    "selectAll": "Select All",
+    "bulkActions": "Bulk Actions",
+    "export": "Export",
+    "import": "Import"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "min": "Must be at least {{min}} characters",
+    "max": "Must be no more than {{max}} characters",
+    "numeric": "Must be a number",
+    "positive": "Must be a positive number",
+    "url": "Please enter a valid URL",
+    "sku": "SKU must be unique",
+    "price": "Price must be greater than 0"
+  },
+  "messages": {
+    "productSaved": "Product saved successfully",
+    "productDeleted": "Product deleted successfully",
+    "inventoryUpdated": "Inventory updated successfully",
+    "orderStatusUpdated": "Order status updated successfully",
+    "paymentCaptured": "Payment captured successfully",
+    "paymentRefunded": "Payment refunded successfully",
+    "reviewApproved": "Review approved successfully",
+    "reviewRejected": "Review rejected successfully",
+    "reviewResponseSaved": "Review response saved successfully",
+    "userAdded": "User added successfully",
+    "userUpdated": "User updated successfully",
+    "userRemoved": "User removed successfully",
+    "settingsSaved": "Settings saved successfully",
+    "confirmDelete": "Are you sure you want to delete this item?",
+    "errorOccurred": "An error occurred. Please try again.",
+    "unauthorized": "You are not authorized to perform this action"
+  }
+}
